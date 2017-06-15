@@ -1,35 +1,43 @@
 <template>
-  <div class="contain">
-    <div style="padding: 20px;">
-      <ul>
-        <li v-for="item in items">
-          {{ item.val}}
-        </li>
-      </ul>
-
+  <div>
+    <header-vue></header-vue>
+    <div class="web-size">
+      <div style="margin-top: 50px" class="tree">
+        <ul>
+          <li v-for="one in listData">
+            <p><input type="text" v-model="one.title"></p>
+            <ul>
+              <li v-for="two in one.child">
+                <p><input type="text" v-model="two.title"></p>
+                <ul>
+                  <li v-for="three in two.child"><p><input type="text" v-model="three.title"></p> </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+  import HeaderVue from '../common/HeaderVue.vue'
   export default {
     name: 'List',
     data: function () {
       return {
-        items: [
-          {val: '我的随笔'},
-          {val: '我的评论'},
-          {val: '我的参与'},
-          {val: '最新评论'},
-          {val: '我的标签'},
-          {val: '更多链接'}
-        ]
+        listData: ''
       }
     },
+    components: {
+      HeaderVue: HeaderVue
+    },
     created: function () {
-      var url = '/static/data/list.json'
+      var url = '/static/data/list2.json'
       this.$ajax_get(url, function (data) {
         console.log('data---', data)
+        this.listData = data
       })
     }
   }

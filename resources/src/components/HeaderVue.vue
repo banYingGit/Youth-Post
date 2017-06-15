@@ -1,6 +1,6 @@
 <template>
   <div id="headerVue" class="header">
-    <h1><router-link to="/"><img src="../assets/image/logo.png"></router-link></h1>
+    <h1><router-link to="/"><img src="../assets/images/logo.png"></router-link></h1>
   </div>
 </template>
 <script>

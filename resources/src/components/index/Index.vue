@@ -1,16 +1,13 @@
 <template>
-  <div class="contain">
-    dddd
-  </div>
+  <header-vue></header-vue>
 </template>
 
 <script>
+  import HeaderVue from '../common/HeaderVue.vue'
   export default {
-    name: 'hello',
-    data: function () {
-      return {
-        msg: 'Welcome to Your Vue.js App'
-      }
+    name: 'index',
+    components: {
+      HeaderVue: HeaderVue
     }
   }
 </script>

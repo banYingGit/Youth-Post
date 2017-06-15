@@ -4,8 +4,7 @@
 var gulp = require('gulp'),
   less = require('gulp-less'),
 //确保本地已安装gulp-minify-css [npm install gulp-minify-css --save-dev]
-  cssmin = require('gulp-minify-css'),
-  cmd = require('gulp-cmd');
+  cssmin = require('gulp-minify-css');
 
 //createdCss（自定义任务名称）
 gulp.task('createdCss', function () {
