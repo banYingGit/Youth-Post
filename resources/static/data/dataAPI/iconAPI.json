@@ -1,0 +1,46 @@
+{
+  "code": "1",
+  "result": {
+    "columnsProps": [
+      {
+        "title": "属性",
+        "key": "props",
+        "width": 150
+      },
+      {
+        "title": "说明",
+        "key": "note"
+      },
+      {
+        "title": "类型",
+        "key": "type",
+        "width": 150
+      },
+      {
+        "title": "默认",
+        "key": "default",
+        "width": 150
+      }
+    ],
+    "dataProps": [
+      {
+        "props": "type",
+        "note": "图标的名称",
+        "type": "String",
+        "default": "-"
+      },
+      {
+        "props": "size",
+        "note": "图标的大小，单位是 px",
+        "type": "Number | String",
+        "default": "-"
+      },
+      {
+        "props": "color",
+        "note": "图标的颜色",
+        "type": "String",
+        "default": "-"
+      }
+    ]
+  }
+}

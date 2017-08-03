@@ -67,6 +67,34 @@ img {
   }
 }
 
+.pannel {
+  margin: 20px auto 0 auto;
+  height: 320px;
+  overflow-y: auto;
+  border: solid 1px @color-d;
+  &.pannel-auto {
+    height: auto;
+  }
+  > .pannel-title {
+    padding: 0 20px;
+    height: 40px;
+    border-bottom: dashed 1px @color-d;
+    line-height: 40px;
+  }
+  > .pannel-box {
+    padding: 20px;
+  }
+  > .pannel-note {
+    margin: 0 20px 20px 20px;
+    padding: 10px 20px;
+    border: dashed 1px @color-warning;
+    background: lighten(@color-warning, 35%);
+    line-height: 30px;
+    color: desaturate(@color-warning, 60%);
+
+  }
+}
+
 .contain {
   padding: 0 0 0 200px;
   width: 100%;

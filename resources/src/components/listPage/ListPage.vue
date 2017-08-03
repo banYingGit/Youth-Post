@@ -10,7 +10,7 @@
               <li v-for="two in one.child">
                 <p><input type="text" v-model="two.title"></p>
                 <ul>
-                  <li v-for="three in two.child"><p><input type="text" v-model="three.title"></p> </li>
+                  <li v-for="three in two.child"><p><input type="text" v-model="three.title"></p></li>
                 </ul>
               </li>
             </ul>

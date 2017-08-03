@@ -1,0 +1,117 @@
+{
+  "code": "1",
+  "result": {
+    "columnsProps": [
+      {
+        "title": "属性",
+        "key": "props",
+        "width": 150
+      },
+      {
+        "title": "说明",
+        "key": "note"
+      },
+      {
+        "title": "类型",
+        "key": "type",
+        "width": 150
+      },
+      {
+        "title": "默认",
+        "key": "default",
+        "width": 150
+      }
+    ],
+    "dataProps": [
+      {
+        "props": "type",
+        "note": "按钮类型，可选值为primary、ghost、dashed、text、info、success、warning、error或者不设置",
+        "type": "String",
+        "default": "-"
+      },
+      {
+        "props": "size",
+        "note": "按钮大小，可选值为large和small或者不设置",
+        "type": "String",
+        "default": "-"
+      },
+      {
+        "props": "shape",
+        "note": "按钮形状，可选值为circle或者不设置",
+        "type": "String",
+        "default": "-"
+      },
+      {
+        "props": "long",
+        "note": "开启后，按钮的长度为 100%",
+        "type": "Boolean",
+        "default": "false"
+      },
+      {
+        "props": "html-type",
+        "note": "设置button原生的type，可选值为button、submit、reset",
+        "type": "String",
+        "default": "-"
+      },
+      {
+        "props": "disabled",
+        "note": "设置按钮为禁用状态",
+        "type": "Boolean",
+        "default": "false"
+      },
+      {
+        "props": "loading",
+        "note": "设置按钮为加载中状态",
+        "type": "Boolean",
+        "default": "false"
+      },
+      {
+        "props": "icon",
+        "note": "设置按钮的图标类型",
+        "type": "String",
+        "default": "-"
+      }
+    ],
+    "columnsGroup": [
+      {
+        "title": "属性",
+        "key": "props",
+        "width": 150
+      },
+      {
+        "title": "说明",
+        "key": "note"
+      },
+      {
+        "title": "类型",
+        "key": "type",
+        "width": 150
+      },
+      {
+        "title": "默认",
+        "key": "default",
+        "width": 150
+      }
+    ],
+    "dataGroup": [
+      {
+        "props": "size",
+        "note": "按钮组合大小，可选值为large和small或者不设置",
+        "type": "String",
+        "default": "-"
+      },
+      {
+        "props": "shape",
+        "note": "按钮组合形状，可选值为circle或者不设置",
+        "type": "String",
+        "default": "-"
+      },
+      {
+        "props": "vertical",
+        "note": "是否纵向排列按钮组",
+        "type": "Boolean",
+        "default": "false"
+      }
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "code": "1",
+  "result": {
+    "columnsProps": [
+      {
+        "title": "属性",
+        "key": "props",
+        "width": 150
+      },
+      {
+        "title": "说明",
+        "key": "note"
+      },
+      {
+        "title": "类型",
+        "key": "type",
+        "width": 150
+      },
+      {
+        "title": "默认",
+        "key": "default",
+        "width": 150
+      }
+    ],
+    "dataProps": [
+      {
+        "props": "type",
+        "note": "输入框类型，可选值为 text、password 或 textarea",
+        "type": "String",
+        "default": "text"
+      },
+      {
+        "props": "value",
+        "note": "绑定的值，可使用 v-model 双向绑定",
+        "type": "String | Number",
+        "default": "空"
+      },
+      {
+        "props": "size",
+        "note": "输入框尺寸，可选值为large和small或者不设置",
+        "type": "String",
+        "default": "-"
+      },
+      {
+        "props": "placeholder",
+        "note": "占位文本",
+        "type": "String",
+        "default": "-"
+      },
+      {
+        "props": "disabled",
+        "note": "设置输入框为禁用状态",
+        "type": "Boolean",
+        "default": "false"
+      },
+      {
+        "props": "readonly",
+        "note": "设置输入框为只读",
+        "type": "Boolean",
+        "default": "false"
+      },
+      {
+        "props": "maxlength",
+        "note": "最大输入长度",
+        "type": "Number",
+        "default": "-"
+      },
+      {
+        "props": "icon",
+        "note": "输入框尾部图标，仅在 text 类型下有效",
+        "type": "String",
+        "default": "-"
+      },
+      {
+        "props": "rows",
+        "note": "文本域默认行数，仅在 textarea 类型下有效",
+        "type": "Number",
+        "default": "2"
+      },
+      {
+        "props": "autosize",
+        "note": "自适应内容高度，仅在 textarea 类型下有效，可传入对象，如 { minRows: 2, maxRows: 6 }",
+        "type": "Boolean | Object",
+        "default": "false"
+      },
+      {
+        "props": "number",
+        "note": "将用户的输入转换为 Number 类型",
+        "type": "Boolean",
+        "default": "false"
+      },
+      {
+        "props": "autofocus",
+        "note": "自动获取焦点",
+        "type": "Boolean",
+        "default": "false"
+      }
+    ],
+    "columnsGroup": [
+      {
+        "title": "属性",
+        "key": "props",
+        "width": 150
+      },
+      {
+        "title": "说明",
+        "key": "note"
+      },
+      {
+        "title": "类型",
+        "key": "type",
+        "width": 150
+      },
+      {
+        "title": "默认",
+        "key": "default",
+        "width": 150
+      }
+    ],
+    "dataGroup": [
+      {
+        "props": "size",
+        "note": "按钮组合大小，可选值为large和small或者不设置",
+        "type": "String",
+        "default": "-"
+      },
+      {
+        "props": "shape",
+        "note": "按钮组合形状，可选值为circle或者不设置",
+        "type": "String",
+        "default": "-"
+      },
+      {
+        "props": "vertical",
+        "note": "是否纵向排列按钮组",
+        "type": "Boolean",
+        "default": "false"
+      }
+    ]
+  }
+}
