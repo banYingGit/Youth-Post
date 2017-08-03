@@ -6,8 +6,8 @@
     <file url="file://$PROJECT_DIR$/resources/src/assets/css/newIview.less" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/src/assets/script/layout.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/src/components/HeaderVue.vue" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/resources/src/components/center/Center.vue" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/src/components/common/HeaderVue.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/src/components/form/input.vue" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/src/components/index/Index.vue" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/static/data/list.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/static/data/list2.json" charset="UTF-8" />
