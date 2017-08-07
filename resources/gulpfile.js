@@ -15,7 +15,7 @@ gulp.task('createdCss', function () {
 });
 
 gulp.task('autoCss', function () {
-  gulp.watch('src/assets/css/newIview.less', ['createdCss'])
+  gulp.watch('src/assets/css/*.less', ['createdCss'])
 });
 
 

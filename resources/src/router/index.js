@@ -6,11 +6,8 @@ import '../assets/script/layout.js'
 import 'iview/dist/styles/iview.css'
 import '../assets/css/newIview.css'
 import Index from '@/components/index/Index'
-// /*basic*/
-import Button from '@/components/Basic/Button'
-import Icon from '@/components/Basic/Icon'
-// /*form*/
-import Input from '@/components/form/input'
+// /*account*/
+import AccountList from '@/components/account/List'
 
 Vue.use(Iview)
 Vue.use(Router)
@@ -24,22 +21,10 @@ export default new Router({
       component: Index
     },
     {
-      // /*basic*/
-      path: '/basic/button.html',
-      name: 'button',
-      component: Button
-    },
-    {
-      // /*basic*/
-      path: '/basic/icon.html',
-      name: 'icon',
-      component: Icon
-    },
-    {
-      // /*form*/
-      path: '/form/input.html',
-      name: 'input',
-      component: Input
+      // /*account*/
+      path: '/account/list.html',
+      name: 'accountList',
+      component: AccountList
     }
   ]
 })

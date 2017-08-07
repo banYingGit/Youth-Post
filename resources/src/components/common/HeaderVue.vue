@@ -4,17 +4,16 @@
       <h1>
         <router-link to="/"><img src="../../assets/images/logo.png"></router-link>
       </h1>
-      <menu-vue></menu-vue>
+
+      <div class="out-btn" title="退出">
+        <Icon type="log-out"></Icon>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-  import MenuVue from '../common/MenuVue.vue'
   export default {
-    name: 'headerVue',
-    components: {
-      MenuVue: MenuVue
-    }
+    name: 'headerVue'
   }
 </script>
