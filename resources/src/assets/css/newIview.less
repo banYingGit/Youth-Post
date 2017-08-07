@@ -1,0 +1,160 @@
+@import "color";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 1360px;
+  background: @color-f1;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.clear {
+  clear: both;
+  &:after {
+    display: block;
+    clear: both;
+    height: 0;
+  }
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.m-t-20 {
+  margin-top: 20px;
+}
+
+.m-l-r-20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.info-bg {
+  background: @color-info;
+}
+
+.success-bg {
+  background: @color-success;
+}
+
+.warning-bg {
+  background: @color-warning;
+}
+
+.danger-bg {
+  background: @color-danger;
+}
+
+.info-text {
+  color: @color-info;
+}
+
+.success-text {
+  color: @color-success;
+}
+
+.warning-text {
+  color: @color-warning;
+}
+
+.danger-text {
+  color: @color-danger;
+}
+
+@color-danger: #ff4949;
+
+.web-size {
+  position: relative;
+  width: 100%;
+  .clear;
+  margin: 0 auto;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 60px;
+  background: #464c5b;
+  color: #fff;
+  h1 {
+    display: block;
+    float: left;
+    width: 200px;
+    text-align: center;
+    line-height: 60px;
+    img {
+      width: 180px;
+      height: 40px;
+    }
+  }
+  .out-btn {
+    width: 100px;
+    height: 60px;
+    margin-right: 20px;
+    float: right;
+    background: @mask-b-3;
+    line-height: 60px;
+    text-align: center;
+    font-size: 28px;
+    cursor: pointer;
+  }
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 220px;
+  height: 100%;
+  padding-top: 60px;
+  > ul {
+    height: 100%;
+    background: #fff;
+    > .ivu-menu-item {
+      border-bottom: solid 1px @color-d;
+    }
+    &.ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu) {
+      background: #fff;
+    }
+    > li.ivu-menu-item > i {
+      font-size: 18px;
+      vertical-align: middle;
+    }
+  }
+
+}
+
+.contain {
+  padding: 60px 0 30px 220px;
+  width: 100%;
+  > .pannel {
+    margin: 20px 20px 0 20px;
+  }
+  .pannel {
+    padding: 20px;
+    border: solid 1px @color-d;
+    background: @color-f;
+    border-radius: 4px;
+    transition: all .2s ease-in-out;
+    &:hover {
+      box-shadow: 0 1px 6px @mask-b-1;
+      border-color: #eee;
+    }
+  }
+}
+
+@import "index";
